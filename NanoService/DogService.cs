@@ -42,5 +42,12 @@ namespace NanoService
         {
             return await Task.FromResult(_dogs ?? new List<Dog>());
         }
+
+        public async Task<int> Post(Dog dog)
+        {
+            _dogs.Add(dog);
+
+            return await Task.FromResult(0);
+        }
     }
 }

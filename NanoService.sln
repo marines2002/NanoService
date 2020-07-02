@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanoService", "NanoService\NanoService.csproj", "{1194DAFA-26F2-4836-874C-F69337D94DFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanoService.Test", "NanoService.Test\NanoService.Test.csproj", "{CCF177C6-A2CA-4029-B6AB-C11037F206E1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FF9ABE1F-D7D7-4E5A-9314-49E8FFAB1E09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{1194DAFA-26F2-4836-874C-F69337D94DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1194DAFA-26F2-4836-874C-F69337D94DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1194DAFA-26F2-4836-874C-F69337D94DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF177C6-A2CA-4029-B6AB-C11037F206E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF177C6-A2CA-4029-B6AB-C11037F206E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF177C6-A2CA-4029-B6AB-C11037F206E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF177C6-A2CA-4029-B6AB-C11037F206E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9ABE1F-D7D7-4E5A-9314-49E8FFAB1E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9ABE1F-D7D7-4E5A-9314-49E8FFAB1E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9ABE1F-D7D7-4E5A-9314-49E8FFAB1E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9ABE1F-D7D7-4E5A-9314-49E8FFAB1E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

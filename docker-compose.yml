@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nanoservice:
+    image: ${DOCKER_REGISTRY-}nanoservice
+    build:
+      context: .
+      dockerfile: NanoService/Dockerfile
